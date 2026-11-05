@@ -1,6 +1,7 @@
 # Business Card Extraction Agent
+I built this so  business executives can quickly capture contact details from a simple picture of a business card. I found tons of business cards laying around that I never had time to enter into my CRM or Connect with on LinkedIn. This allowed me to extract key contact information and find the correct Linkedin profile to connect with. The output is simple .csv file you can upload into any database. 
 
-An intelligent, interactive AI agent built with the **Google Agent Development Kit (ADK)** and the **Model Context Protocol (MCP)**. This agent helps you digitize physical business cards by extracting contact details, searching for the candidate's LinkedIn profile, and persisting the verified data to a local CSV file.
+I built this AI agent with the **Google Agent Development Kit (ADK)** and the **Model Context Protocol (MCP)**. 
 
 ## Features
 
@@ -33,7 +34,7 @@ Before running the agent, ensure you have the following installed:
 
 3. **Configure the Working Directory:**
    By default, the agent is configured to write to:
-   `C:/Users/Kevin/adk-samplework/name_agent/contact_files`
+   `C:/Users`
    *(Note: You can update the `ALLOWED_PATH` variable in the script to match your preferred local directory).* 
    
    The agent will automatically create this directory if it does not exist.
