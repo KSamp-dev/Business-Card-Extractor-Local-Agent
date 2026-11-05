@@ -50,8 +50,6 @@ Before running the agent, ensure you have the following installed:
 
 ## Usage
 
-Usage
-
 To utilize the agent's full multimodal capabilities (such as uploading photos of business cards), you will run it through the ADK web interface:
 
 Ensure ADK is Downloaded: Verify that you have the Google ADK installed in your environment.
@@ -59,8 +57,9 @@ Ensure ADK is Downloaded: Verify that you have the Google ADK installed in your 
 Navigate to the Directory: Open your terminal and navigate to the parent directory containing your name_agent folder.
 
 Launch the Web Interface: Start the ADK web UI by running the following command:
-
-adk web
+```bash
+   adk web
+   ```
 
 
 Test the Agent: Once the web interface opens in your browser, select your agent. You can now use the multimodal chat to upload an image of a business card. The agent will process the image, search for the LinkedIn profile, ask for your confirmation, and save the data to your CSV!
